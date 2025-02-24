@@ -1,49 +1,86 @@
-# iGEM 2025 Documentation
+# iGEM 项目文档协作指南
 
-## 文档使用指南
+> 为了帮助团队成员更好地协作完成 iGEM 项目文档的中英双语写作而创建的指南。
 
-为了保证文档的一致性和可读性，以及便于后续迁移到 wiki 上，我制定了一定的写作规范。如果你是团队成员,请先阅读[写作指南](guide/format/mixed.md)。
+## 这份指南是什么？
 
-### 主要内容
+这是一份面向 iGEM 团队的文档写作规范指南，旨在:
+
+- 统一中英文文档的写作风格和格式
+- 提高团队协作效率
+- 确保文档的专业性和可读性
+
+## 为什么需要这份指南？
+
+iGEM 项目需要团队成员共同完成大量的文档工作，包括:
+
+- Wiki 页面的搭建与内容编写
+- 项目描述文档
+- 实验记录与报告
+- 展示材料制作
+
+由于文档需要中英双语呈现，且团队成员的写作习惯不尽相同，很容易出现风格不统一、格式混乱等问题。这份指南将帮助我们:
+
+- 建立统一的写作规范
+- 分享实用的写作技巧
+
+## 内容架构
 
 本指南包含以下主要部分:
-1. Markdown 基础语法规范
-2. 中英文混排规则
-3. 专业术语翻译对照表
-4. Wiki 页面编写指南
-5. 实验记录模板
-6. 常见写作问题 FAQ
 
-### 如何贡献
+### 格式规范
 
-1. 克隆项目仓库:
-```bash
-git clone https://github.com/AnyaReese/DocuGuideline.git
-cd DocuGuideline
+- 文件分块指南：如何组织和管理中英文文档
+- 标点符号使用：中英文标点的规范和混排处理
+- 排版建议：统一的格式和样式指南
+
+### 专业内容规范
+
+- 专业术语：首次出现需中英对照，后续保持统一
+- 内容格式：标题层级、强调格式、列表格式等统一规范
+- 参考文献：引用格式、编号规则和维护指南
+
+### 图表规范
+
+- 图片规范：清晰度、水印、说明文字等要求
+- 表格规范：复杂表格处理建议
+- 数学公式：KaTeX 语法使用指南
+
+### 协作实践
+
+- 文档审查：更改前的检查清单
+- 常见问题：文档协作中的常见问题及解决方案
+- 实用工具：推荐的写作和编辑工具
+
+### 附录
+
+- Markdown 语法速查
+- 常用工具推荐
+
+## 本地构建
+
+```shell
+$ git clone https://github.com/AnyaReese/DocuGuideline.git
+$ cd DocuGuideline
+$ pip install -r requirements.txt
+$ mkdocs serve
 ```
 
-2. 安装依赖:
-```bash
-pip install -r requirements.txt
-```
+## 贡献指南
 
-3. 本地预览:
-```bash
-mkdocs serve
-```
+欢迎团队成员:
 
-## 文档结构
+- 提出内容建议和修改意见
+- 分享好的写作经验
+- 补充完善专业术语表
+- 提交 Pull Request 帮助改进文档
 
-```
-docs/
-├── project/          # 项目文档
-├── guide/            # 写作指南
-│   ├── format/      # 格式规范
-│   └── content/     # 内容规范
-└── team/            # 团队信息
-```
+## 致谢
 
-## License
+- 感谢 [mkdocs](https://www.mkdocs.org/) 和 [material 主题](https://squidfunk.github.io/mkdocs-material/)提供技术支持
+- 感谢所有为本指南做出贡献的团队成员
+
+## 许可
 
 本文档采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 协议进行许可。
 原始文档 Copyright &copy; 2023 [TonyCrane](https://github.com/TonyCrane)

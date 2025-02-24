@@ -9,8 +9,8 @@ nav:
   - 首页: index.md
   - 写作指南:
     - 格式规范:
-      # - 中英混排规范: guide/format/mixed.md
-      # - 标点符号使用: guide/format/punctuation.md 
+      - 文件分块指南: guide/format/docu.md
+      - 标点符号使用: guide/format/punctuation.md 
       - 排版建议: guide/format/layout.md
     - 内容规范:
       - 各种格式编写: guide/content/references.md
