@@ -1,44 +1,61 @@
-# 实验文档降压宝典
+# iGEM 项目文档协作指南
 
 [![deploy](https://github.com/TonyCrane/lab-hypotensor/actions/workflows/deploy.yml/badge.svg)](https://hypotensor.tonycrane.cc/)
 
-> 一位助教写出了一份十分不规范的实验指导手册，这是做他实验的学生身体发生的变化。
->
-> Hypo meaning low, tensor meaning blood pressure.   
-> lab-hypotensor is aimed to help lower the blood pressure of the students who are doing the expriments.
+> 为了帮助团队成员更好地协作完成 iGEM 项目文档的中英双语写作而创建的指南。
 
-## 这份文档是什么？
+## 这份指南是什么？
 
-一句话概括：是针对计算机类实验指导网站的规范化编写指南，旨在从文档层面提升学生们做实验的体验。
+这是一份面向 iGEM 团队的文档写作规范指南，旨在:
+- 统一中英文文档的写作风格和格式
+- 提高团队协作效率
+- 确保文档的专业性和可读性
 
-## 为什么要有这份文档？
+## 为什么需要这份指南？
 
-目前越来越多的课程实验部分设计交给了课程助教来完成，也有越来越多的助教选择了使用 mkdocs 搭建在线网站的方式呈现实验指导。但由于大部分助教缺乏对 markdown 规范的阅读、缺乏对于 mkdocs/material 文档的阅读、缺乏一些基础的文字排版知识，导致制作出来的实验文档虽然能用，但对于“完美主义者”来讲体验极其糟糕。
+iGEM 项目需要团队成员共同完成大量的文档工作，包括:
+- Wiki 页面的搭建与内容编写
+- 项目描述文档
+- 实验记录与报告
+- 展示材料制作
 
-在我参与助教或者我朋友参与助教的课程中，我都尽可能将实验文档整理得更加规范，但这样后期调整不仅是个极费劲的苦力活也更是对于修改者身心的摧残。所以我编写了这份文档，希望能够从根源上解决这个问题，即希望各位使用 mkdocs 编写实验文档的助教们可以在编写文档的时候就尽量做到规范、清晰、美观。
+由于文档需要中英双语呈现，且团队成员的写作习惯不尽相同，很容易出现风格不统一、格式混乱等问题。这份指南将帮助我们:
+- 建立统一的写作规范
+- 提供常用的写作模板
+- 分享实用的写作技巧
 
-我不清楚这样一份文档的效果能有多少，但总归比没有更强，相信各位以学生为中心的助教们一定会认真阅读这份文档并用于实践，将文档编写至更好的。
+## 内容架构
 
-同时实验也是两方面的工作，助教向学生呈现实验指导文档，学生最终还会向助教呈现完成后的实验报告。换位思考，助教们也希望同学们写出更简介明了的实验报告，所以这份文档的“学生版”中会提供一些关于实验报告的写作建议。（这部分会晚些完成）
+本指南包含以下主要部分:
+1. Markdown 基础语法规范
+2. 中英文混排规则
+3. 专业术语翻译对照表
+4. Wiki 页面编写指南
+5. 实验记录模板
+6. 常见写作问题 FAQ
 
-## 关于贡献
-
-本文档正在编写中，支持一切贡献，有任何问题可以提出 Issue 或者在页面下方评论，有内容贡献可以提出 Pull Request。
-
-### 本地构建
+## 本地构建
 
 ```shell
-$ git clone https://github.com/TonyCrane/lab-hypotensor.git
-$ cd lab-hypotensor
+$ git clone https://github.com/AnyaReese/DocuGuideline.git
+$ cd DocuGuideline
 $ pip install -r requirements.txt
 $ mkdocs serve
 ```
 
+## 贡献指南
+
+欢迎团队成员:
+- 提出内容建议和修改意见
+- 分享好的写作经验
+- 补充完善专业术语表
+- 提交 Pull Request 帮助改进文档
+
 ## 致谢
 
-- 感谢 [mkdocs](https://www.mkdocs.org/) 和 [material 主题](https://squidfunk.github.io/mkdocs-material/)提供了易用、美观的网站框架和主题
-- 本文档有参考于[中文技术文档写作风格指南](https://github.com/yikeke/zh-style-guide/)，这也是一份非常推荐阅读的文档
+- 感谢 [mkdocs](https://www.mkdocs.org/) 和 [material 主题](https://squidfunk.github.io/mkdocs-material/)提供技术支持
+- 感谢所有为本指南做出贡献的团队成员
 
-## License
+## 许可
 
-本文档采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 协议进行许可，转载请注明出处。
+本文档采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 协议进行许可。

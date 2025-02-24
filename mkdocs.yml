@@ -1,46 +1,43 @@
-site_name: 实验文档降压宝典
-site_url: https://hypotensor.tonycrane.cc/
-repo_name: lab-hypotensor
-repo_url: https://github.com/TonyCrane/lab-hypotensor/
+site_name: iGEM 2025 Documentation
+# site_url: https://your-team.igem.wiki/
+repo_name: DocuGuideline
+repo_url: https://github.com/AnyaReese/DocuGuideline/
 edit_uri: tree/master/docs
-copyright: Copyright &copy; 2023 TonyCrane with CC BY-SA 4.0
+copyright: Copyright &copy; 2025 AnyaReese; 2023 TonyCrane with CC BY-SA 4.0
 
 nav:
   - 首页: index.md
-  - 助教版:
-    - ta/index.md
-    - 重修 markdown！:
-      - ta/markdown/index.md
-      - 常见错误用法集锦: ta/markdown/syntax.md
-      - 其他编写建议: ta/markdown/suggestions.md
-    - 去读各个文档！:
-      - ta/rtfm/index.md
-      - mkdocs 配置拾遗: ta/rtfm/mkdocs.md
-      - material 主题使用拾遗: ta/rtfm/material.md
-      - markdown 扩展配置拾遗: ta/rtfm/markdown.md
-    - 多少学点排版:
-      - ta/typesetting/index.md
-      - 标点符号的使用: ta/typesetting/punctuation.md
-      - 更多排版建议: ta/typesetting/suggestions.md
-  - 学生版:
-    - stu/index.md
+  - 写作指南:
+    - 格式规范:
+      # - 中英混排规范: guide/format/mixed.md
+      # - 标点符号使用: guide/format/punctuation.md 
+      - 排版建议: guide/format/layout.md
+    - 内容规范:
+      - 各种格式编写: guide/content/references.md
+      # - 术语表: guide/content/glossary.md
+      # - 图表制作: guide/content/figures.md
+  - 湿队项目协作:
+    - 项目概述: project/overview.md 
+      # - 实验方法: project/methods.md
+      # - 实验结果: project/results.md
+      # - 讨论: project/discussion.md
 
 theme:
-  name: 'material'
+  name: material
+  language: zh
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
   custom_dir: overrides
   features:
-    - content.code.annotate
-    - content.action.edit
-    - navigation.tracking
     - navigation.tabs
     - navigation.top
-    - navigation.footer
-    - navigation.indexes
+    - navigation.tracking
+    - navigation.sections
     - navigation.expand
+    - content.code.annotate
   font:
+    text: Roboto
     code: JetBrains Mono
   palette:
     - scheme: default
