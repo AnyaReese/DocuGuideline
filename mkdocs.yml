@@ -12,16 +12,22 @@ nav:
       - 文件分块指南: guide/format/docu.md
       - 标点符号使用: guide/format/punctuation.md 
       - 排版建议: guide/format/layout.md
-    - 内容规范:
-      - 各种格式编写: guide/content/references.md
+    - 检查:
+      - 完成后检查: guide/content/checklist.md
       # - 术语表: guide/content/glossary.md
       # - 图表制作: guide/content/figures.md
-  - 湿队项目协作:
-    - 项目概述: project/overview.md 
+  # - 湿队项目协作:
+  #   - 项目概述: project/overview.md 
       # - 实验方法: project/methods.md
       # - 实验结果: project/results.md
       # - 讨论: project/discussion.md
-
+  - 工具链:
+    - 文档工具: tools/docs.md
+    - 图表工具: tools/figures.md
+  - Wiki 参考:
+    - 优秀案例:
+      - 历年赢家: wiki/showcase/winners.md
+    - 常见问题: wiki/issues.md    
 theme:
   name: material
   language: zh

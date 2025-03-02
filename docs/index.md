@@ -1,86 +1,24 @@
 # iGEM 项目文档协作指南
 
-> 为了帮助团队成员更好地协作完成 iGEM 项目文档的中英双语写作而创建的指南。团队成员请阅读[写作指南](./guide/format/layout.md)。
+> 为了帮助团队成员更好地协作完成 iGEM 项目文档的中英双语写作而创建的指南。
 
-## 这份指南是什么？
+## 快速开始
 
-这是一份面向 iGEM 团队的文档写作规范指南，旨在:
-
-- 统一中英文文档的写作风格和格式
-- 提高团队协作效率
-- 确保文档的专业性和可读性
-
-## 为什么需要这份指南？
-
-iGEM 项目需要团队成员共同完成大量的文档工作，包括:
-
-- Wiki 页面的搭建与内容编写
-- 项目描述文档
-- 实验记录与报告
-- 展示材料制作
-
-由于文档需要中英双语呈现，且团队成员的写作习惯不尽相同，很容易出现风格不统一、格式混乱等问题。这份指南将帮助我们:
-
-- 建立统一的写作规范
-- 分享实用的写作技巧
-
-## 内容架构
-
-本指南包含以下主要部分:
-
-### 格式规范
-
-- 文件分块指南：如何组织和管理中英文文档
-- 标点符号使用：中英文标点的规范和混排处理
-- 排版建议：统一的格式和样式指南
-
-### 专业内容规范
-
-- 专业术语：首次出现需中英对照，后续保持统一
-- 内容格式：标题层级、强调格式、列表格式等统一规范
-- 参考文献：引用格式、编号规则和维护指南
-
-### 图表规范
-
-- 图片规范：清晰度、水印、说明文字等要求
-- 表格规范：复杂表格处理建议
-- 数学公式：KaTeX 语法使用指南
-
-### 协作实践
-
-- 文档审查：更改前的检查清单
-- 常见问题：文档协作中的常见问题及解决方案
-- 实用工具：推荐的写作和编辑工具
-
-### 附录
-
-- Markdown 语法速查
-- 常用工具推荐
+1. 阅读[写作指南](./guide/format/layout.md)
+2. 查看[检查清单](./guide/content/checklist.md)
+3. 配置[官方工具](./tools/docs.md)
 
 ## 本地构建
 
 ```shell
-$ git clone https://github.com/AnyaReese/DocuGuideline.git
-$ cd DocuGuideline
-$ pip install -r requirements.txt
-$ mkdocs serve
+git clone https://github.com/AnyaReese/DocuGuideline.git
+cd DocuGuideline
+pip install -r requirements.txt
+mkdocs serve
 ```
 
-## 贡献指南
+## 贡献与许可
 
-欢迎团队成员:
-
-- 提出内容建议和修改意见
-- 分享好的写作经验
-- 补充完善专业术语表
-- 提交 Pull Request 帮助改进文档
-
-## 致谢
-
-- 感谢 [mkdocs](https://www.mkdocs.org/) 和 [material 主题](https://squidfunk.github.io/mkdocs-material/)提供技术支持
-- 感谢所有为本指南做出贡献的团队成员
-
-## 许可
-
-本文档采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 协议进行许可。
-原始文档 Copyright &copy; 2023 [TonyCrane](https://github.com/TonyCrane)
+- 欢迎通过 Issue 或 PR 提出建议
+- 采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 协议
+- 原始文档 Copyright &copy; 2023 [TonyCrane](https://github.com/TonyCrane)
